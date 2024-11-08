@@ -6,13 +6,10 @@
     "dev": "vite",
     "build": "vite build",
     "build:one": "vite build --mode",
-    "build:deploy": "npm run build && npm run deploy",
-    "release": "npm run build:deploy",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.ts,.vue --fix src",
     "prettier": "prettier --write --ignore-unknown src/**/*",
     "stylelint": "stylelint --fix src/**/*.{scss,less,css}",
-    "deploy": "qupload -m ./dist/",
     "report": "vite-bundle-visualizer"
   },
   "dependencies": {
